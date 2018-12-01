@@ -1,0 +1,164 @@
+header{
+    border-bottom: solid 3px #cccccc;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 75px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+    margin-left: 140px;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: #ffffff;  
+}
+
+a{
+    text-decoration: none;
+    color: #777777;
+    justify-content: right;
+    padding-right: 10px;
+    border-right: solid 1px #cccccc;
+
+}
+
+ul{
+    float: right;
+    padding: 0;
+    margin-right: 85px;
+
+}
+nav li{
+    
+    display: inline-block;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    margin-right: 20px; 
+    color: #cccccc; 
+    
+    
+}
+#last{
+    border: none;
+}
+
+h2{
+    color: #4aaaa5;
+    border-bottom: solid 2px #cccccc;
+    padding-bottom: 10px;
+
+}
+.body{
+    width: 960px;
+    display: inline-block;
+    margin-left: 140px;
+    margin-right: 140px;
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    
+}
+img{
+    float: left;
+    padding: 10px;
+    padding-right: 20px;
+}
+p{
+    line-height: 2;
+}
+.maincontent{
+    background-image: url("../images/qbkls.png");
+    margin: 0;
+    
+}
+body{
+    margin: 0;
+    
+}
+footer{
+    background-color: #666666;
+    border-top: solid 8px #4aaaa5;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+
+/* ------ Contact form specific styling-----*/
+
+label{
+    display:table;
+    line-height: 2;
+}
+.userinput{
+    width: 920px;
+    line-height: 2;
+    color: #777777;
+}
+#submit{
+    background-color: #4aaaa5;
+    width: 80px;
+    height: 40px;
+    color: #ffffff;
+}
+
+
+article {
+    width: 30%;
+    position: relative;
+    float: left;
+    text-align: center;
+    margin: 20px;
+
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .text {
+    z-index: 100;
+    width: 100%;
+    position: absolute;
+    color: white;
+    background-color: #4aaaa5;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: 10px;
+    
+  }
+
+  /*  Should the dimmensions of the portfolio page be 960px or smaller?*/
+  .body-portfolio{
+    width: 660px;
+    display: inline-block;
+    margin-left: 290px;
+    margin-right: 290px;
+    background-color: #ffffff;
+    color: #777777;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+  }
